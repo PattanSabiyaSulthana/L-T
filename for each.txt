@@ -1,0 +1,14 @@
+public class foreach
+{
+    public static void main(String[] args)
+    {
+        int n=1234,sum=0,rem;
+        for(;n!=0;n/=10)
+        {
+            rem = n % 10;
+            sum=sum+rem*sum*rem;
+        }
+        String s=(n==sum)?"Armstrong":"not Armstrong";
+        System.out.println(s);
+    }
+}
