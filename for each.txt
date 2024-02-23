@@ -1,5 +1,5 @@
 //java code
-public class foreach
+public class foreachtxt
 {
     public static void main(String[] args)
     {
